@@ -1,0 +1,29 @@
+
+<div class="section-title mt-5 mb-0">
+  <h2>PORTFOLIO</h2>
+</div>
+<ul class="nav nav-tabs d-flex justify-content-center margin-ul-portfolio mb-5 mb-5" id="myTab" role="tablist" style="height:53px;    border-bottom:0 ;">
+    <li class="nav-item " style="height:50px;" role="presentation">
+        <app-button-skill class="active" id="home-tab" data-toggle="tab" data-target="#homeWelcome" type="button" role="tab" aria-controls="home" aria-selected="true" text="ALL" link=""></app-button-skill>
+    </li>
+                        <!-- <li *ngFor="let skill of skills" class="nav-item" style="" role="presentation">
+                            <app-button-skill text="{{skill}}" link=""></app-button-skill>
+                        </li>  -->
+</ul>
+<div class="tab-content " id="myTabContent">
+    <div class="tab-pane fade show active in" id="homeWelcome" role="tabpanel" aria-labelledby="home-tab">
+        <div id="portfolioContainer" class="row justify-content-center mt-5">
+            <div *ngFor="let portfolio of portfolios" class="image-container " [class.hovered]="isHovered" [style.backgroundImage]="'url(' + portfolio.img + ')'" (mouseover)="isHovered = true" (mouseleave)="isHovered = false">
+              <div class="content">
+                <h3 class="title-Portfolio">{{portfolio.title}}</h3>
+                <app-button-skill text="Show More" link="#" (click)="openModal(portfolio)"></app-button-skill>
+
+              </div>
+            </div>
+          </div>
+          
+
+    </div>
+
+</div>
+<app-modal-portfolio *ngIf="selectedItem"></app-modal-portfolio>

@@ -1,0 +1,22 @@
+.button-close{
+    border-radius: 100px;
+    background-color: var(--color-primary);
+    transition: all 0.35s;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+.button-close :hover{
+    background-color: var(--color-primary);
+    transform: scale(1.1); 
+}
+.buttonC {
+    border: 2px solid var( --color-primary);
+    background-color: #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.thing{
+    color: #fff !important;
+}

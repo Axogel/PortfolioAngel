@@ -1,0 +1,19 @@
+.typed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .typed-element {
+    font-size: 24px;
+  }
+  @media only screen and (max-width: 900px) {
+    .container-home{
+      position: relative;
+      top: 150px;
+    }
+    #resume{
+      padding: 0;
+    }
+  }
