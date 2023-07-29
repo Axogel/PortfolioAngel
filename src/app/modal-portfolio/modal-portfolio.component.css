@@ -9,7 +9,11 @@
 .button-close :hover{
     background-color: var(--color-primary);
     transform: scale(1.1); 
+    
 }
+.button-close:hover .thing {
+    color: #fff !important;
+  }
 .buttonC {
     border: 2px solid var( --color-primary);
     background-color: #fff;
@@ -18,5 +22,5 @@
     height: 40px;
 }
 .thing{
-    color: #fff !important;
+    color: #000 ;
 }

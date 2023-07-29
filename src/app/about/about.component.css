@@ -30,7 +30,6 @@
   opacity: 1;
 }
 @media only screen and (max-width: 900px) {
-
   .resume{
     padding-left: 10% !important;
   }

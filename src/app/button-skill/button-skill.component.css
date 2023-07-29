@@ -1,12 +1,11 @@
 
-/*** ESTILOS BOTÓN SLIDE BOTTOM ***/
 .ov-btn-slide-bottom {
-    background: var( --color-primary); /* color de fondo */
-    color: #fff; /* color de fuente */
-    border: 2px solid var( --color-primary); /* tamaño y color de borde */
+    background: var( --color-primary); 
+    color: #fff; 
+    border: 2px solid var( --color-primary); 
     padding: 10px 14px;
     margin: 5px;
-    border-radius: 3px; /* redondear bordes */
+    border-radius: 3px; 
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -15,12 +14,12 @@
     text-decoration: none;
   }
   .ov-btn-slide-bottom:hover {
-    color: var( --color-primary); /* color de fuente hover */
+    color: var( --color-primary); 
     transform: scale(1.1); 
   }
   .ov-btn-slide-bottom::after {
     content: "";
-    background: #fff; /* color de fondo hover */
+    background: #fff; 
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
