@@ -1,0 +1,41 @@
+
+.ov-btn-slide-bottom {
+    background: var( --color-primary); 
+    color: #fff; 
+    border: 2px solid var( --color-primary); 
+    padding: 10px 14px;
+    margin: 5px;
+    border-radius: 3px; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .ov-btn-slide-bottom:hover {
+    color: var( --color-primary); 
+    transform: scale(1.1); 
+  }
+  .ov-btn-slide-bottom::after {
+    content: "";
+    background: #fff; 
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: -100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-bottom:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
