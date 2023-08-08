@@ -1,5 +1,6 @@
 import { AfterViewInit, Component } from '@angular/core';
 import { ButtonSkillComponent } from '../button-skill/button-skill.component';
+import * as AOS from 'aos';
 
 
 
