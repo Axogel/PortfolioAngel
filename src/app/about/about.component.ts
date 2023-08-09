@@ -15,36 +15,44 @@ export class AboutComponent {
   imgs= [
     {
       name: 'HTML',
-      url: `${this.urlImg}html.jpg`,
+      url: `fa-brands fa-html5`,
     },
     {
       name: 'CSS',
-      url: `${this.urlImg}css.jpg`,
+      url: `fa-brands fa-css3-alt`,
     },
     {
       name: 'JavaScript',
-      url: `${this.urlImg}javascript.png`,
+      url: `fa-brands fa-square-js`,
     },
     {
       name: 'Angular',
-      url: `${this.urlImg}angular.jpg`,
+      url: `fa-brands fa-angular`,
     },
     {
       name: 'PHP',
-      url: `${this.urlImg}OIP4.jpg`,
+      url: `fa-brands fa-php`,
     },
     {
       name: 'LARAVEL',
-      url: `${this.urlImg}laravel.png`,
+      url: `fa-brands fa-laravel`,
     },
     {
       name: 'BOOTSTRAP',
-      url: `${this.urlImg}bootstrap.jpg`,
+      url: `fa-brands fa-bootstrap`,
     },
     {
       name: 'MySQL',
-      url: `${this.urlImg}mysql.jpg`,
+      url: `fa-solid fa-database`,
     },
+    {
+      name: 'Vue',
+      url: 'fa-brands fa-vuejs',
+    },
+    {
+      name: 'Python',
+      url: 'fa-brands fa-python',
+    }
   ];
   
 }
