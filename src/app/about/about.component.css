@@ -32,27 +32,67 @@
   border-radius: 20%;
   max-width: 85%;
 }
+
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
 .icon-container {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: transparent; /* Fondo transparente */
+  align-items: center;
+  transition: opacity 0.3s;
+  background-color: #f0f0f0; /* Cambia esto al color deseado */
 }
-.icon {
-  font-size: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.icon-container i {
+  opacity: 1;
+  font-size: 90px;
+  color: var( --color-primary);
+}
+
+.item:hover .icon-container {
+  opacity: 0.3;
+}
+
+.contentSkill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
-  z-index: 20;
-  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: #f0f0f0;
+  background-color: rgba(0, 0, 0, 0.8); /* Cambia esto al color deseado */
+}
+.icon-link{
+  text-decoration: none;
+  color:  var( --color-primary);
+}
+.item:hover .contentSkill {
+  opacity: 1;
 }
 
 
 
+.copyright {
+
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+}
 @media only screen and (max-width: 900px) {
   .resume{
     padding-left: 10% !important;

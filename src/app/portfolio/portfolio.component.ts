@@ -6,6 +6,14 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 import { ModalPortfolioComponent } from '../modal-portfolio/modal-portfolio.component';
 
+
+interface PortfolioItem {
+  title: string;
+  url: string;
+  img: string;
+  description: string;
+  skill: string[];
+}
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
@@ -22,12 +30,14 @@ export class PortfolioComponent {
     "SQL",
     "TailwindCSS"
   ]
-  portfolios:any = [
+
+   portfolios:PortfolioItem[] = [
     {
       title: "VillarTechnologies",
       url: "https://staging.villartechnologies.com.ve/",
       img: "./../../assets/img/portfolio/Villar.png",
-      description: "in the villar site I used my skills for the correct development in this project, and I used my front end skills to make the design attractive to the user and my back end skills for the development of the logic of the site."
+      description: "I utilized my skills for the accurate development of the Villar site. I applied my front-end expertise to create an appealing user interface and employed my back-end skills to build the site's underlying logic.",
+      skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-brands fa-bootstrap", "fa-solid fa-database"]
     },
     
   ]

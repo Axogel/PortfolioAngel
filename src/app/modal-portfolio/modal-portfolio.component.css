@@ -24,3 +24,8 @@
 .thing{
     color: #000 ;
 }
+.iconModal{
+    font-size: 22px;
+    color: var( --color-primary);
+    margin: 1%;
+}

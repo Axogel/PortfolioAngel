@@ -180,6 +180,7 @@ body {
   }
 
   .mobile-nav-toggle {
+    margin: 2%;
     position: fixed;
     right: 10px;
     top: 10px;
