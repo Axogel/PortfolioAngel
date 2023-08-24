@@ -35,7 +35,7 @@ export class PortfolioComponent {
     {
       title: "VillarTechnologies",
       url: "https://staging.villartechnologies.com.ve/",
-      img: "./../../assets/img/portfolio/Villar.png",
+      img: "./../../assets/img/portfolio/Villar.webp",
       description: "I utilized my skills for the accurate development of the Villar site. I applied my front-end expertise to create an appealing user interface and employed my back-end skills to build the site's underlying logic.",
       skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-brands fa-bootstrap", "fa-solid fa-database"]
     },
