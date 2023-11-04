@@ -39,6 +39,21 @@ export class PortfolioComponent {
       description: "I utilized my skills for the accurate development of the Villar site. I applied my front-end expertise to create an appealing user interface and employed my back-end skills to build the site's underlying logic.",
       skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-brands fa-bootstrap", "fa-solid fa-database"]
     },
+    {
+      title: "Sogcial",
+      url: "https://frontdev.sogcial.com",
+      img: "./../../assets/img/portfolio/sogcial.webp",
+      description: "add some features and bug fixes in the backend as well as fix some responsiveness of the views",
+      skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-solid fa-database"]
+    },
+    {
+      title: "Poindata",
+      url: "https://pointdata.villartechnologies.com.ve/",
+      img: "./../../assets/img/portfolio/poindata.webp",
+      description: "I was in charge of updating this page to the latest version of Laravel and adding some functionalities.",
+      skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-solid fa-database"]
+    }
+
     
   ]
   selectedItem: any;
