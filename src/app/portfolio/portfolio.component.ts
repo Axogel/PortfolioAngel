@@ -30,32 +30,40 @@ export class PortfolioComponent {
     "SQL",
     "TailwindCSS"
   ]
-
-   portfolios:PortfolioItem[] = [
+  portfolios:any = [
     {
-      title: "VillarTechnologies",
-      url: "https://staging.villartechnologies.com.ve/",
-      img: "./../../assets/img/portfolio/Villar.webp",
-      description: "I utilized my skills for the accurate development of the Villar site. I applied my front-end expertise to create an appealing user interface and employed my back-end skills to build the site's underlying logic.",
-      skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-brands fa-bootstrap", "fa-solid fa-database"]
+      title: "Templates",
+      url: "#",
+      img: `
+      https://get.foundation/assets/img/sites-templates/f6-template-realestate.svg
+      `,
+      description: `
+      Implemented a clean and minimalist design aesthetic aligned with the brand's identity
+      `
     },
     {
-      title: "Sogcial",
-      url: "https://frontdev.sogcial.com",
-      img: "./../../assets/img/portfolio/sogcial.webp",
-      description: "add some features and bug fixes in the backend as well as fix some responsiveness of the views",
-      skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-solid fa-database"]
+      title: "Templates",
+      url: "#",
+      img: `
+      https://firmbee.com/wp-content/uploads/template_9_freebees_0-900x856.png
+      `,
+      description: `
+      Implemented a clean and minimalist design aesthetic aligned with the brand's identity
+      `
     },
     {
-      title: "Poindata",
-      url: "https://pointdata.villartechnologies.com.ve/",
-      img: "./../../assets/img/portfolio/poindata.webp",
-      description: "I was in charge of updating this page to the latest version of Laravel and adding some functionalities.",
-      skill: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js", "fa-brands fa-php", "fa-brands fa-laravel","fa-solid fa-database"]
-    }
-
+      title: "Templates",
+      url: "#",
+      img: `
+      https://repository-images.githubusercontent.com/158229292/94300293-92db-4778-bbe2-4891817af266
+      `,
+      description: `
+      Implemented a clean and minimalist design aesthetic aligned with the brand's identity
+      `
+    },
     
   ]
+  
   selectedItem: any;
   constructor(private modalService: NgbModal) {}
 

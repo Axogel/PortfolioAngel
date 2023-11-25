@@ -15,7 +15,6 @@
 
       </div>
       <div class="modal-body container">
-            <img src="{{selectedItem.img}}" alt="..." style="width: 100%;">
             <app-button-skill [text]="'Visit the page'" [link]="selectedItem.url"></app-button-skill>
             <div>
               <i *ngFor="let item of selectedItem.skill" class="{{item}} iconModal"></i>
